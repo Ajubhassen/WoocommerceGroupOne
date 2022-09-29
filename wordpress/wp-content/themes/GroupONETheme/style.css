@@ -1,18 +1,73 @@
 /*
-Theme Name: Empty Theme
-Theme URI: https://github.com/tidythemes/blankslate
-Author: TidyThemes
-Author URI: http://tidythemes.com/
-Description: Please read: tidythemes.com/concept. Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
-Tags: accessibility-ready, one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+Theme Name: Vårat tema
+Author: Simon Sandevik, WIE21
+Description: Jag hatar Wordpress 
 Version: 2022.4
 Requires at least: 5.2
 Tested up to: 5.9
 Requires PHP: 7.0
 License: GNU General Public License v3 or Later
 License URI: https://www.gnu.org/licenses/gpl.html
-Text Domain: blankslate
-
-BlankSlate WordPress Theme © 2011-2022 TidyThemes
-BlankSlate is distributed under the terms of the GNU GPL
+Text Domain: gruppuppgift
 */
+*{margin:0;}
+
+header{
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  height: 5em;
+  background: transparent;
+}
+header a{
+  color: black;
+  text-decoration: none;
+}
+header .menu-my-custom-menu-container ul{
+  display: flex;
+  gap: 2em;
+}
+header .menu-my-custom-menu-container li{
+  list-style-type: none;
+}
+.menu-my-custom-menu-container{
+  display:flex;
+  justify-content: space-evenly;
+  margin: 0;
+  width: 50em;
+}
+.menu-my-custom-menu-container ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  background: rgb(172, 171, 171);
+  display: flex;
+}
+.footer-wrapper{
+  display: flex;
+  gap: 3em;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: row;
+}
+.footer-nav .menu ul{
+  list-style-type: none;
+}
+.footer-info{
+
+}
+
+.hero{
+  height: 500px;
+  width: 100vw;
+  background: rgb(202, 202, 202);
+}
+
+
+

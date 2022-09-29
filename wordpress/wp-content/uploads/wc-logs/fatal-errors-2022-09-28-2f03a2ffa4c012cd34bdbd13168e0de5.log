@@ -1,0 +1,22 @@
+2022-09-28T13:40:03+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php:19) in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php on line 24
+
+2022-09-28T13:40:20+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php:19) in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php on line 24
+
+2022-09-28T13:40:26+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php:19) in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php on line 24
+
+2022-09-28T13:40:38+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php:19) in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php on line 24
+
+2022-09-28T13:40:40+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php:19) in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php on line 24
+
+2022-09-28T13:41:10+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php:19) in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupONETheme\functions.php on line 24
+
+2022-09-28T15:32:32+00:00 CRITICAL syntax error, unexpected token ":" in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupOneTheme\front-page.php on line 11
+
+2022-09-28T15:32:42+00:00 CRITICAL syntax error, unexpected token ":" in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupOneTheme\front-page.php on line 11
+
+2022-09-28T15:33:14+00:00 CRITICAL syntax error, unexpected identifier "have_posts", expecting "(" in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupOneTheme\front-page.php on line 11
+
+2022-09-28T15:33:18+00:00 CRITICAL syntax error, unexpected identifier "have_posts", expecting "(" in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupOneTheme\front-page.php on line 11
+
+2022-09-28T15:33:24+00:00 CRITICAL syntax error, unexpected identifier "have_posts", expecting "(" in C:\MAMP\htdocs\gruppuppgift\wordpress\wp-content\themes\GroupOneTheme\front-page.php on line 11
+

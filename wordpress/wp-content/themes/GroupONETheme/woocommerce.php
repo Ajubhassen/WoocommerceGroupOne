@@ -1,5 +1,7 @@
-<?php if ( have_posts() ) : 
+<?php get_header(); ?>
 
-woocommerce_content(); ?>
+<div class="shop-content">
+    <?php woocommerce_content(); ?>
+</div>
 
-<?php endif; ?>
+<?php get_footer(); ?>

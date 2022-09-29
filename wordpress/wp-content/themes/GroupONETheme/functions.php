@@ -1,42 +1,24 @@
-<?php   
+<?php
+add_action('wp_enqueue_scripts', 'styles_enqueue');
 
-remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
-remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
-
-add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
-add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
-
-function my_theme_wrapper_start() {
-    echo '<section id="main">';
+function styles_enqueue()
+{
+    wp_enqueue_style('style', get_stylesheet_uri());
 }
 
-function my_theme_wrapper_end() {
-    echo '</section>';
+add_theme_support('post-thumbnails');
+
+
+function wpb_custom_new_menu()
+{
+    register_nav_menu('my-custom-menu', __('My Custom Menu'));
 }
 
+add_action('init', 'wpb_custom_new_menu');
 
-function mytheme_add_woocommerce_support() {
-    add_theme_support( 'woocommerce' );
+add_image_size("post_image", 1100, 550, false);
+
+function mytheme_add_woocommerce_support(){
+    add_theme_support("woocommerce");
 }
-
-add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
-
-function mytheme_add_woocommerce_support() {
-    add_theme_support( 'woocommerce', array(
-        'thumbnail_image_width' => 150,
-        'single_image_width'    => 300,
-
-        'product_grid'          => array(
-            'default_rows'    => 3,
-            'min_rows'        => 2,
-            'max_rows'        => 8,
-            'default_columns' => 4,
-            'min_columns'     => 2,
-            'max_columns'     => 5,
-        ),
-    ) );
-}
-
-add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
-
-add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+add_action("after_setup_theme", "mytheme_add_woocommerce_support");
